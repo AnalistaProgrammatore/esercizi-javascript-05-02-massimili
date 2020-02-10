@@ -1,3 +1,7 @@
-/**
-* Write a loop that makes seven calls to console.log to output the following triangle
-*/
+cancelletto = "#"
+i = 0
+console.log(cancelletto)
+for (i = 0; i < 6; i++) {
+    cancelletto = cancelletto + " #"
+    console.log(cancelletto)
+}
